@@ -1,7 +1,6 @@
 import re
 
 def solution(dartResult):
-    answer = 0
     pattern = "([0-9]|10)([S|D|T])([*|#]?)"
     darts = re.findall(pattern, dartResult)
     scores = []
