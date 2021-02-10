@@ -23,3 +23,7 @@ class Test(unittest.TestCase):
         result = [1, 1, 1, 1, 2, 4]
 
         self.assertListEqual(result, solution(info, query))
+
+
+if __name__ == "__main__":
+    unittest.main()
