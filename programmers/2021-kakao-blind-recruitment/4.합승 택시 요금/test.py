@@ -23,7 +23,7 @@ class Test(unittest.TestCase):
 
         self.assertEqual(result, solution(n, s, a, b, fares))
 
-    def test_input_1(self):
+    def test_input_2(self):
         n = 7
         s = 3
         a = 4
@@ -33,7 +33,7 @@ class Test(unittest.TestCase):
 
         self.assertEqual(result, solution(n, s, a, b, fares))
 
-    def test_input_1(self):
+    def test_input_3(self):
         n = 6
         s = 4
         a = 5
