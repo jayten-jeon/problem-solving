@@ -10,7 +10,7 @@ class Test(unittest.TestCase):
         result = 14
         self.assertEqual(result, solution(board, r, c))
 
-    def test_input_1(self):
+    def test_input_2(self):
         board = [[3, 0, 0, 2], [0, 0, 1, 0], [0, 1, 0, 0], [2, 0, 0, 3]]
         r = 0
         c = 1
